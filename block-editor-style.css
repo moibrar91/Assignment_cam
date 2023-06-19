@@ -1,0 +1,23 @@
+
+.wp-block-my-slideshow-block-my-slideshow {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .wp-block-my-slideshow-block-my-slideshow .components-panel__body {
+    margin-bottom: 20px;
+  }
+  
+  .wp-block-my-slideshow-block-my-slideshow .components-text-control {
+    margin-bottom: 10px;
+  }
+  
+  .wp-block-my-slideshow-block-my-slideshow .components-button {
+    margin-right: 10px;
+  }
+  
+  .wp-block-my-slideshow-block-my-slideshow .components-spinner {
+    vertical-align: text-bottom;
+    margin-left: 5px;
+  }
+  

@@ -1,0 +1,70 @@
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  /* Slides */
+  .slide {
+    display: none;
+    text-align: center;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Slide content */
+  .slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .slide-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .slide-meta {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Slide navigation */
+  .slide-navigation {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .slide-navigation button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .slide-navigation button:focus {
+    outline: none;
+  }
+  
+  /* Mobile swipe */
+  @media screen and (max-width: 767px) {
+    .slideshow-container {
+      touch-action: pan-y;
+    }
+  }
+  
